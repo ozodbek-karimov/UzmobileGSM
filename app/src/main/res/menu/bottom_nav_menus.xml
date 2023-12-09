@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/balansFragment"
+        android:icon="@drawable/balans_icon"
+        app:tint="#228BD6"
+        android:title="@string/balans"/>
+    <item
+        android:id="@+id/operatorFragment"
+        android:icon="@drawable/operator_icons"
+        app:tint="#228BD6"
+        android:title="@string/operator"/>
+    <item
+        android:id="@+id/action_add"
+        android:enabled="false"
+        android:title=" " />
+    <item
+        android:id="@+id/yangiliklarFragment"
+        android:icon="@drawable/yangiliklar_icons"
+        app:tint="#228BD6"
+        android:title="@string/yangiliklar"/>
+    <item
+        android:id="@+id/sozlamalarFragment"
+        android:icon="@drawable/soz"
+        app:tint="#228BD6"
+        android:title="@string/sozlamalar"/>
+
+</menu>

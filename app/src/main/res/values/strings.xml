@@ -1,0 +1,25 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name" translatable="false">UzmobileGSM</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dm_mobile_group">DM Mobile Group</string>
+    <string name="o_zbek">O\'zbekcha</string>
+    <string name="Русский">Ruscha</string>
+    <string name="English">Inglizcha</string>
+    <string name="sozlamalar">Sozlama</string>
+    <string name="yangiliklar">Yangilik</string>
+    <string name="todo">TODO</string>
+    <string name="operator">Operator</string>
+    <string name="balans">Balans</string>
+    <string name="uzmobile">UZMOBILE</string>
+    <string name="milliy_operator">MILLIY OPERATOR</string>
+    <string name="_10">Oddiy 10</string>
+    <string name="_10_000">10 000 so\'m oyiga</string>
+    <string name="_10_sms">10 SMS</string>
+    <string name="_10_mb">10 MB</string>
+    <string name="_10_min">10 MIN</string>
+    <string name="up_button">Up button</string>
+    <string name="About">Tarif_rejasi_jismoniy_va_yuridik_shaxslar_uchun_2019_yil_1_f_vraldan_30_iyunga_qadar_taqdim_etiladi_kiritilgan_daqiqa_limiti_mb_sms_1_kal_ndar_oyiga_taqdim_etiladi_tarif_rejasiga_o_zb_kt_l_kom_ak_sotuvlar_ofisi_shuningdek_dil_rlar_orqali_ulanish_mumkin_abon_nt_to_lovini_hisoblash_abon_nt_faol_bo_lganida_amalga_oshiriladi_agar_abon_nt_hisobida_pul_mablag_i_yetarli_bo_lmaganligi_sababli_abon_nt_bloklangan_bo_lsa_to_lov_kiritilmaguniga_qadar_to_lov_hisoblanmaydi_ushbu_tarif_rejasiga_ulanish_yoki_unga_o_tishda_abonent_to_lovi_kalendar_oyidagi_qolgan_kunlar_soniga_nisbatan_kiritilgan_daqiqalar_sms_va_internet_trafigi_shuningdek_qolgan_kunlar_soni_bo_yicha_to_liq_daqiqaga_yaxlitlangan_holda_hisoblab_chiqiladi" tools:ignore="MissingTranslation">Tarif rejasi jismoniy va yuridik shaxslar uchun, 2019-yil 1-fеvraldan 30-iyunga qadar taqdim etiladi. Kiritilgan daqiqa limiti, MB, SMS 1 kalеndar oyiga taqdim etiladi. Tarif rejasiga «O‘zbеktеlеkom» AK sotuvlar ofisi, shuningdek, dilеrlar orqali ulanish mumkin. Abonеnt to‘lovini hisoblash abonеnt faol bo‘lganida amalga oshiriladi. Agar abonеnt hisobida pul mablag‘i yetarli bo‘lmaganligi sababli abonеnt bloklangan bo‘lsa, to‘lov kiritilmaguniga qadar to‘lov hisoblanmaydi. Ushbu tarif rejasiga ulanish yoki unga o‘tishda abonent to‘lovi kalendar oyidagi qolgan kunlar soniga nisbatan, kiritilgan daqiqalar, SMS va Internet trafigi, shuningdek, qolgan kunlar soni bo‘yicha (to‘liq daqiqaga yaxlitlangan holda) hisoblab chiqiladi.</string>
+    <string name="operatorlar">Operatorlar</string>
+    <string name="batafsil">Batafsil</string>
+    <string name="internet_paketlar">Internet paketlar</string>
+</resources>

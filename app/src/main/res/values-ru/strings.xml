@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dm_mobile_group">DM Mobile Group</string>
+    <string name="o_zbek">Uzbekskiy</string>
+    <string name="Русский">Ruskiy</string>
+    <string name="English">Angskiy</string>
+    <string name="sozlamalar">Settings</string>
+    <string name="yangiliklar">News</string>
+    <string name="todo">TODO</string>
+    <string name="operator">Ruskiy</string>
+    <string name="balans">Ruskiy</string>
+    <string name="uzmobile">UZMOBILE</string>
+    <string name="milliy_operator">Ruskiy</string>
+    <string name="_10">Simple 10</string>
+    <string name="_10_000">10 000 sum monthly</string>
+    <string name="_10_sms">10 SMS</string>
+    <string name="_10_mb">10 MB</string>
+    <string name="_10_min">10 MIN</string>
+    <string name="Here" tools:ignore="ExtraTranslation">Here everything</string>
+    <string name="up_button">Up button</string>
+    <string name="About" >Tarif rejasi  jismoniy va yuridik shaxslar uchun, 2019-yil  1-fеvraldan 30-iyunga qadar taqdim etiladi.
+Kiritilgan daqiqa limiti, MB, SMS 1 kalеndar oyiga taqdim etiladi.
+Tarif rejasiga «O‘zbеktеlеkom» AK sotuvlar ofisi, shuningdek, dilеrlar orqali ulanish mumkin.
+Abonеnt to‘lovini hisoblash abonеnt faol bo‘lganida amalga oshiriladi.  Agar abonеnt hisobida pul mablag‘i yetarli bo‘lmaganligi sababli abonеnt bloklangan bo‘lsa, to‘lov kiritilmaguniga qadar to‘lov hisoblanmaydi.
+ Ushbu tarif rejasiga ulanish yoki unga o‘tishda abonent to‘lovi kalendar oyidagi qolgan kunlar soniga nisbatan, kiritilgan daqiqalar, SMS va Internet trafigi, shuningdek, qolgan kunlar soni bo‘yicha (to‘liq daqiqaga yaxlitlangan holda) hisoblab chiqiladi.</string>
+    <string name="operatorlar">Operatorlar</string>
+</resources>

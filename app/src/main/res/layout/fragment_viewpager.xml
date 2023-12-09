@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#01B4FF"
+    tools:context=".fragments.ViewpagerFragment">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/custom_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="#01B4FF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <ImageView
+            android:id="@+id/up_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:src="@drawable/ic_arrow_back"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:tint="@color/white" />
+
+        <TextView
+            android:id="@+id/Operatorlar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:text="@string/batafsil"
+            android:textColor="@color/white"
+            android:textSize="23sp"
+            android:textStyle="normal"
+            app:layout_constraintBottom_toBottomOf="@+id/up_button"
+            app:layout_constraintStart_toEndOf="@+id/up_button"
+            app:layout_constraintTop_toTopOf="@+id/up_button" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@drawable/fragmentadapter_backgrround"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/custom_toolbar"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/package_names"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Tarif  “Просто 10”"
+        android:textAlignment="center"
+        android:textColor="#228BD6"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/custom_toolbar" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="19dp"
+        android:text="Abonent to’lovi:"
+        android:textAlignment="center"
+        android:textColor="#2E2E2E"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/package_names" />
+
+    <TextView
+        android:id="@+id/package_payment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="30dp"
+        android:text="10.000 so’m"
+        android:textAlignment="center"
+        android:textColor="#2E2E2E"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/package_names" />
+
+    <TextView
+        android:id="@+id/package_text"
+        android:layout_width="0dp"
+        android:layout_height="378dp"
+        android:layout_marginTop="12dp"
+        android:lineHeight="15dp"
+        android:lineSpacingExtra="54dp"
+        android:text="@string/About"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="@+id/package_payment"
+        app:layout_constraintStart_toStartOf="@+id/textView4"
+        app:layout_constraintTop_toBottomOf="@+id/view4"
+        tools:targetApi="p" />
+
+    <View
+        android:id="@+id/view4"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="552dp"
+        android:background="#9C9C9C"
+        app:layout_constraintBottom_toBottomOf="@+id/view3"
+        app:layout_constraintEnd_toEndOf="@+id/package_payment"
+        app:layout_constraintStart_toStartOf="@+id/textView4"
+        app:layout_constraintTop_toBottomOf="@+id/package_payment"
+        app:layout_constraintVertical_weight="0.2" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button"
+        android:layout_width="130dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="38dp"
+        android:enabled="false"
+        android:text="Batafsil"
+        android:textColor="#505050"
+        android:textSize="14sp"
+        app:backgroundTint="#F1F1F1"
+        app:cornerRadius="4dp"
+        app:layout_constraintStart_toStartOf="@+id/package_text"
+        app:layout_constraintTop_toBottomOf="@+id/package_text" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/subscribe_button"
+        android:layout_width="130dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="38dp"
+        android:layout_marginBottom="30dp"
+        android:text="Ulanish"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:backgroundTint="#01B4FF"
+        app:cornerRadius="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/package_text"
+        app:layout_constraintTop_toBottomOf="@+id/package_text"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

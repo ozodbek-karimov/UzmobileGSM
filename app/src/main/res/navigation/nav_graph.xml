@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/splashScreen">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="pl.ozodbek.uzmobilegsm.fragments.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+
+
+        <action
+            android:id="@+id/action_homeFragment_to_viewpagerFragment"
+            app:destination="@id/viewpagerFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/viewpagerFragment"
+        android:name="pl.ozodbek.uzmobilegsm.fragments.ViewpagerFragment"
+        android:label="fragment_viewpager"
+        tools:layout="@layout/fragment_viewpager" >
+
+
+        <argument
+            android:name="data_list"
+            app:argType="ExampleData" />
+        <action
+            android:id="@+id/action_viewpagerFragment_to_homeFragment2"
+            app:destination="@id/homeFragment"
+            app:popUpTo="@id/viewpagerFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/tariflarFragment"
+        android:name="pl.ozodbek.uzmobilegsm.fragments.TariflarFragment"
+        android:label="fragment_tariflar"
+        tools:layout="@layout/fragment_tariflar" >
+        <action
+            android:id="@+id/action_tariflarFragment_to_homeFragment"
+            app:destination="@id/homeFragment"
+            app:popUpTo="@id/tariflarFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/smsPaketFragment"
+        android:name="pl.ozodbek.uzmobilegsm.fragments.SmsPaketFragment"
+        android:label="fragment_sms_paket"
+        tools:layout="@layout/fragment_sms_paket" >
+        <action
+            android:id="@+id/action_smsPaketFragment_to_homeFragment"
+            app:destination="@id/homeFragment"
+            app:popUpTo="@id/smsPaketFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/internetPaketFragment"
+        android:name="pl.ozodbek.uzmobilegsm.fragments.InternetPaketFragment"
+        android:label="fragment_internet_paket"
+        tools:layout="@layout/fragment_internet_paket" >
+        <action
+            android:id="@+id/action_internetPaketFragment_to_homeFragment"
+            app:destination="@id/homeFragment"
+            app:popUpTo="@id/internetPaketFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/ussdFragment"
+        android:name="pl.ozodbek.uzmobilegsm.fragments.UssdFragment"
+        android:label="fragment_ussd"
+        tools:layout="@layout/fragment_ussd" >
+        <action
+            android:id="@+id/action_ussdFragment_to_homeFragment"
+            app:destination="@id/homeFragment"
+            app:popUpTo="@id/ussdFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/xizmatlarFragment"
+        android:name="pl.ozodbek.uzmobilegsm.fragments.XizmatlarFragment"
+        android:label="fragment_xizmatlar"
+        tools:layout="@layout/fragment_xizmatlar" >
+        <action
+            android:id="@+id/action_xizmatlarFragment_to_homeFragment"
+            app:destination="@id/homeFragment"
+            app:popUpTo="@id/xizmatlarFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/balansFragment"
+        android:name="pl.ozodbek.uzmobilegsm.fragments.BalansFragment"
+        android:label="fragment_balans"
+        tools:layout="@layout/fragment_balans" >
+        <action
+            android:id="@+id/action_balansFragment_to_homeFragment"
+            app:destination="@id/homeFragment"
+            app:popUpTo="@id/balansFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/operatorFragment"
+        android:name="pl.ozodbek.uzmobilegsm.fragments.OperatorFragment"
+        android:label="fragment_operator"
+        tools:layout="@layout/fragment_operator" >
+        <action
+            android:id="@+id/action_operatorFragment_to_homeFragment"
+            app:destination="@id/homeFragment"
+            app:popUpTo="@id/operatorFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/yangiliklarFragment"
+        android:name="pl.ozodbek.uzmobilegsm.fragments.NewsFragment"
+        android:label="fragment_yangiliklar"
+        tools:layout="@layout/fragment_news" >
+        <action
+            android:id="@+id/action_yangiliklarFragment_to_homeFragment"
+            app:destination="@id/homeFragment"
+            app:popUpTo="@id/yangiliklarFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/sozlamalarFragment"
+        android:name="pl.ozodbek.uzmobilegsm.fragments.SozlamalarFragment"
+        android:label="fragment_sozlamalar"
+        tools:layout="@layout/fragment_sozlamalar" >
+        <action
+            android:id="@+id/action_sozlamalarFragment_to_homeFragment"
+            app:destination="@id/homeFragment"
+            app:popUpTo="@id/sozlamalarFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/minutFragment"
+        android:name="pl.ozodbek.uzmobilegsm.fragments.MinutFragment"
+        android:label="fragment_minut"
+        tools:layout="@layout/fragment_minut" >
+        <action
+            android:id="@+id/action_minutFragment_to_homeFragment"
+            app:destination="@id/homeFragment"
+            app:popUpTo="@id/minutFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/splashScreen"
+        android:name="pl.ozodbek.uzmobilegsm.SplashScreen"
+        android:label="fragment_splash_screen"
+        tools:layout="@layout/fragment_splash_screen" >
+
+        <action
+            android:id="@+id/action_splashScreen_to_homeFragment"
+            app:destination="@id/homeFragment"
+            app:popUpTo="@id/splashScreen"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/internetSpeedFragment"
+        android:name="pl.ozodbek.uzmobilegsm.InternetSpeedFragment"
+        android:label="fragment_internet_speed"
+        tools:layout="@layout/fragment_internet_speed" >
+
+        <action
+            android:id="@+id/action_internetSpeedFragment_to_homeFragment"
+            app:destination="@id/homeFragment"
+            app:popUpTo="@id/internetSpeedFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+</navigation>
